@@ -1,8 +1,0 @@
-
-****** Webtalk v2015.4.2 (64-bit)
-  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
-  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
-    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/gyl/Vivado/4.1_mealy/4.1_mealy.hw/webtalk/labtool_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Wed Apr 19 18:41:16 2017...
