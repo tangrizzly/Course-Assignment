@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/JR_Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JR_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/mips_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/scrs/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/mips/mips.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

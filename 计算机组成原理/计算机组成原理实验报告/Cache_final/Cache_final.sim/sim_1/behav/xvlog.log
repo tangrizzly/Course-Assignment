@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.srcs/sources_1/imports/3/AreaMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AreaMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.srcs/sources_1/imports/3/CacheMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CacheMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.srcs/sources_1/imports/3/Compare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.srcs/sources_1/imports/3/Cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.srcs/sim_1/imports/3/Cache_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/tinyrolls/Cache_final/Cache_final.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

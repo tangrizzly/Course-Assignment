@@ -1,0 +1,4 @@
+deposit 2018 1 5 5000 salary
+deposit 2018 2 14 5500 lottery
+withdraw 2018 4 10 2000 house rent
+settle 2019 1 1 0 

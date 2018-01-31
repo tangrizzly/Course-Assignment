@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../scrs/data_memory.v"
+verilog xil_defaultlib  "../../../scrs/alu.v"
+verilog xil_defaultlib  "../../../scrs/ALUControl.v"
+verilog xil_defaultlib  "../../../scrs/JR_Control.v"
+verilog xil_defaultlib  "../../../scrs/control.v"
+verilog xil_defaultlib  "../../../scrs/register_file.v"
+verilog xil_defaultlib  "../../../scrs/instr_mem.v"
+verilog xil_defaultlib  "../../../scrs/mips_16.v"
+verilog xil_defaultlib  "../../../scrs/testbench.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

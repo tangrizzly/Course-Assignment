@@ -1,0 +1,8 @@
+withdraw 2018 1 15 250 shoes
+settle 2018 2 1 0 
+deposit 2018 2 1 255 repay Janurary's bill
+withdraw 2018 2 3 360 food
+settle 2018 3 1 0 
+deposit 2018 3 4 371 repay February's bill
+withdraw 2019 1 1 150 annual fee
+settle 2019 1 1 0 

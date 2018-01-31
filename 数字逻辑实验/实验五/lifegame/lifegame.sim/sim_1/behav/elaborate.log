@@ -1,0 +1,9 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 823e5f3c4c4b4f6e9aab10ae92d8d8ae --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot life_game_test_behav xil_defaultlib.life_game_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port button on this module [D:/digital logic/lifegame/lifegame.srcs/sim_1/new/life_game_test.v:16]
+ERROR: [VRFC 10-426] cannot find port button on this module [D:/digital logic/lifegame/lifegame.srcs/sim_1/new/life_game_test.v:18]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port x_position [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:123]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

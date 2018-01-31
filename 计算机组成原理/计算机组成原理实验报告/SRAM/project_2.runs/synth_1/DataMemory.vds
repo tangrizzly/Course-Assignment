@@ -1,0 +1,306 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon May 08 09:37:04 2017
+# Process ID: 2268
+# Current directory: C:/Users/Administrator/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log DataMemory.vds -mode batch -messageDb vivado.pb -notrace -source DataMemory.tcl
+# Log file: C:/Users/Administrator/project_2/project_2.runs/synth_1/DataMemory.vds
+# Journal file: C:/Users/Administrator/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DataMemory.tcl -notrace
+Command: synth_design -top DataMemory -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 288.332 ; gain = 116.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Administrator/project_2/project_2.srcs/sources_1/new/dataMem.v:1]
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (1#1) [C:/Users/Administrator/project_2/project_2.srcs/sources_1/new/dataMem.v:1]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[11]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[10]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[9]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[7]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[6]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 324.645 ; gain = 152.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 324.645 ; gain = 152.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 324.645 ; gain = 152.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 331.738 ; gain = 159.566
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DataMemory 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 449.281 ; gain = 277.109
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[31]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[30]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[29]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[28]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[27]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[26]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[25]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[23]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[22]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[21]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[20]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[19]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[18]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[17]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[16]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[11]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[10]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[9]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[8]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[7]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[6]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Adr[5]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 450.543 ; gain = 278.371
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 450.543 ; gain = 278.371
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+------------+-----------+----------------------+-----------------+-------------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives      | Hierarchical Name | 
++------------+------------+-----------+----------------------+-----------------+-------------------+
+|DataMemory  | DM_reg     | Implied   | 32 x 32              | RAM32X1S x 32   | DataMemory/ram__2 | 
++------------+------------+-----------+----------------------+-----------------+-------------------+
+
+Note: The table above shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the Distributed RAM name as it appears in the hierarchical module and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.277 ; gain = 286.105
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.277 ; gain = 286.105
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.277 ; gain = 286.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |RAM32X1S |    32|
+|3     |IBUF     |    39|
+|4     |OBUFT    |    32|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   104|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 54 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 458.348 ; gain = 246.918
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 458.348 ; gain = 286.176
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 54 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 525.570 ; gain = 319.125
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 525.570 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 08 09:37:18 2017...

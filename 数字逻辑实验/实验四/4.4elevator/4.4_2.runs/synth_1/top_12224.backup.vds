@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu Mar 30 20:25:52 2017
+# Process ID: 12224
+# Current directory: D:/number logic/4.4_2/4.4_2.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/number logic/4.4_2/4.4_2.runs/synth_1/top.vds
+# Journal file: D:/number logic/4.4_2/4.4_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+ERROR: [Synth 8-2576] procedural assignment to a non-register signal is not permitted [D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v:16]
+ERROR: [Synth 8-2576] procedural assignment to a non-register signal is not permitted [D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v:17]
+ERROR: [Synth 8-2576] procedural assignment to a non-register signal is not permitted [D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v:18]
+ERROR: [Synth 8-2576] procedural assignment to a non-register signal is not permitted [D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v:19]
+INFO: [Synth 8-2350] module button ignored due to previous errors [D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v:2]
+Failed to read verilog 'D:/number logic/4.4_2/4.4_2.srcs/sources_1/new/BUTTON.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 20:26:01 2017...

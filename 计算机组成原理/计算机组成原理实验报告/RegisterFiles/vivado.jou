@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon May 08 10:29:28 2017
+# Process ID: 4888
+# Current directory: C:/Users/Administrator/Desktop/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4016 C:\Users\Administrator\Desktop\project_1\project_1.xpr
+# Log file: C:/Users/Administrator/Desktop/project_1/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/project_1/project_1.xpr

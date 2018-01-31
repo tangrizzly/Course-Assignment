@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed Apr 19 09:11:50 2017
+# Process ID: 13032
+# Current directory: C:/Users/gyl/Vivado/DigitalLogic/flowing_light/flowing_light.runs/impl_1
+# Command line: vivado.exe -log flowing_light.vdi -applog -messageDb vivado.pb -mode batch -source flowing_light.tcl -notrace
+# Log file: C:/Users/gyl/Vivado/DigitalLogic/flowing_light/flowing_light.runs/impl_1/flowing_light.vdi
+# Journal file: C:/Users/gyl/Vivado/DigitalLogic/flowing_light/flowing_light.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source flowing_light.tcl -notrace

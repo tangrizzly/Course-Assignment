@@ -1,0 +1,68 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Thu Mar 30 15:34:12 2017
+| Host         : DESKTOP-I4NF4M6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    15 |
+| Minimum Number of register sites lost to control set restrictions |    51 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             105 |           31 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |              64 |           25 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------+---------------------+-------------------------+------------------+----------------+
+|     Clock Signal     |    Enable Signal    |     Set/Reset Signal    | Slice Load Count | Bel Load Count |
++----------------------+---------------------+-------------------------+------------------+----------------+
+|  clk3hz_BUFG         |                     |                         |                1 |              3 |
+|  clk_190Hz_BUFG      |                     | U2/en                   |                1 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[29] |                         |                2 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[25] |                         |                1 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[21] |                         |                4 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[17] |                         |                2 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[13] |                         |                1 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[9]  |                         |                2 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[5]  |                         |                2 |              4 |
+|  clk3hz_BUFG         | U2/constant_msg[1]  |                         |                1 |              4 |
+|  U1/O15              |                     |                         |                3 |              6 |
+|  clk3hz_BUFG         | U2/msgArray         | U2/msgArray[15]_i_1_n_0 |                4 |             16 |
+|  clk_190Hz_BUFG      |                     |                         |                9 |             28 |
+|  clk3hz_BUFG         | main_switch_IBUF    |                         |               10 |             32 |
+|  clk100mhz_IBUF_BUFG |                     |                         |               18 |             68 |
++----------------------+---------------------+-------------------------+------------------+----------------+
+
+

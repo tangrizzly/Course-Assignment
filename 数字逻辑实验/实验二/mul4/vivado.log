@@ -1,0 +1,707 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Tue Apr 18 08:10:47 2017
+# Process ID: 16740
+# Current directory: D:/digital logic/mul4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3772 D:\digital logic\mul4\mul4.xpr
+# Log file: D:/digital logic/mul4/vivado.log
+# Journal file: D:/digital logic/mul4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/digital logic/mul4/mul4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 722.000 ; gain = 130.215
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/mul4/mul4.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mul4/mul4.srcs/sources_1/new/mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mul4/mul4.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mul4/mul4.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/digital logic/mul4/mul4.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 30af583e02b54404843be6098d59d17e --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mul
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/digital -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2015.4.2 (64-bit)"
+    (file "D:/digital" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 18 08:18:36 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 757.668 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/digital logic/mul4/mul4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 757.668 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: mul
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:23 ; elapsed = 00:21:09 . Memory (MB): peak = 779.613 ; gain = 608.449
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mul' [D:/digital logic/mul4/mul4.srcs/sources_1/new/mul.v:3]
+INFO: [Synth 8-256] done synthesizing module 'mul' (1#1) [D:/digital logic/mul4/mul4.srcs/sources_1/new/mul.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:24 ; elapsed = 00:21:11 . Memory (MB): peak = 810.547 ; gain = 639.383
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:24 ; elapsed = 00:21:11 . Memory (MB): peak = 810.547 ; gain = 639.383
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 8 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:40 ; elapsed = 00:21:29 . Memory (MB): peak = 1084.910 ; gain = 913.746
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1084.910 ; gain = 305.297
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/digital logic/water/project_1.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/number logic/water' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1090.492 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: flowing_light
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:08 ; elapsed = 00:29:02 . Memory (MB): peak = 1090.492 ; gain = 919.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'flowing_light' [D:/digital logic/water/project_1.srcs/sources_1/new/flowing_light.v:3]
+INFO: [Synth 8-256] done synthesizing module 'flowing_light' (1#1) [D:/digital logic/water/project_1.srcs/sources_1/new/flowing_light.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:09 ; elapsed = 00:29:03 . Memory (MB): peak = 1090.492 ; gain = 919.328
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:09 ; elapsed = 00:29:03 . Memory (MB): peak = 1090.492 ; gain = 919.328
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/digital logic/water/project_1.srcs/constrs_1/new/top_xdc.xdc]
+Finished Parsing XDC File [D:/digital logic/water/project_1.srcs/constrs_1/new/top_xdc.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:02:16 ; elapsed = 00:29:08 . Memory (MB): peak = 1132.133 ; gain = 960.969
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.133 ; gain = 41.641
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-1
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/digital logic/water/project_1.srcs/constrs_1/new/top_xdc.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/digital logic/water/project_1.srcs/constrs_1/new/top_xdc.xdc:38]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1594.027 ; gain = 451.016
+Finished Parsing XDC File [D:/digital logic/water/project_1.srcs/constrs_1/new/top_xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1594.027 ; gain = 461.895
+close_project
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1604.539 ; gain = 0.000
+open_project {D:/digital logic/mult8/mult8.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1604.539 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: mult
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:03:21 ; elapsed = 00:44:28 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mult' [D:/digital logic/mult8/mult8.srcs/sources_1/new/mult.v:3]
+INFO: [Synth 8-256] done synthesizing module 'mult' (1#1) [D:/digital logic/mult8/mult8.srcs/sources_1/new/mult.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:22 ; elapsed = 00:44:29 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:22 ; elapsed = 00:44:29 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 16 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:30 ; elapsed = 00:44:34 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1604.539 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/mult8/mult8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mult8/mult8.srcs/sources_1/new/mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mult8/mult8.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/mult8/mult8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/digital logic/mult8/mult8.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto fe09e95114a1463399a91f5d2fc11e33 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mult
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/digital -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2015.4.2 (64-bit)"
+    (file "D:/digital" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 18 08:57:25 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1604.539 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/digital logic/mult8/mult8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1604.539 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/digital logic/div_4/div_4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/div_4/div_4.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div4
+WARNING: [VRFC 10-1315] redeclaration of ansi port numerator is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:9]
+WARNING: [VRFC 10-1315] redeclaration of ansi port denominator is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:10]
+WARNING: [VRFC 10-1315] redeclaration of ansi port quotient is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:11]
+WARNING: [VRFC 10-1315] redeclaration of ansi port remainder is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div_4/div_4.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div_4/div_4.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/digital logic/div_4/div_4.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 831daedb9b834977a681717fc6e9fe55 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div4
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav
+
+****** Webtalk v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/digital -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2015.4.2 (64-bit)"
+    (file "D:/digital" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 18 09:01:05 2017...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1604.539 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/digital logic/div_4/div_4.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_behav -key {Behavioral:sim_1:Functional:test} -tclbatch {test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1604.539 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: div4
+WARNING: [Synth 8-2611] redeclaration of ansi port numerator is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:9]
+WARNING: [Synth 8-2611] redeclaration of ansi port denominator is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:10]
+WARNING: [Synth 8-2611] redeclaration of ansi port quotient is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:11]
+WARNING: [Synth 8-2611] redeclaration of ansi port remainder is not allowed [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:12]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:04:08 ; elapsed = 00:59:47 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'div4' [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'div4' (1#1) [D:/digital logic/div_4/div_4.srcs/sources_1/new/div4.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:04:09 ; elapsed = 00:59:48 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:09 ; elapsed = 00:59:48 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 12 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:04:16 ; elapsed = 00:59:52 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+6 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1604.539 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/digital logic/div8/div8.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'div84_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/div8/div8.sim/sim_1/behav'
+"xvlog -m64 --relax -prj div84_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div8/div8.srcs/sources_1/new/div8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div8
+WARNING: [VRFC 10-1315] redeclaration of ansi port numerator is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:8]
+WARNING: [VRFC 10-1315] redeclaration of ansi port denominator is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:9]
+WARNING: [VRFC 10-1315] redeclaration of ansi port quotient is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:10]
+WARNING: [VRFC 10-1315] redeclaration of ansi port remainder is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div8/div8.srcs/sim_1/new/div8_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div84_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/div8/div8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/digital logic/div8/div8.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 76a64991d7274f4f9d5ca25a2311eabc --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot div84_sim_behav xil_defaultlib.div84_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.div8
+Compiling module xil_defaultlib.div84_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot div84_sim_behav
+
+****** Webtalk v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/digital -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2015.4.2 (64-bit)"
+    (file "D:/digital" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 18 09:11:57 2017...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/digital logic/div8/div8.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "div84_sim_behav -key {Behavioral:sim_1:Functional:div84_sim} -tclbatch {div84_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source div84_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'div84_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1604.539 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7vx485tffg1157-1
+Top: div8
+WARNING: [Synth 8-2611] redeclaration of ansi port numerator is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:8]
+WARNING: [Synth 8-2611] redeclaration of ansi port denominator is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:9]
+WARNING: [Synth 8-2611] redeclaration of ansi port quotient is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:10]
+WARNING: [Synth 8-2611] redeclaration of ansi port remainder is not allowed [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:11]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:04:39 ; elapsed = 01:05:24 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'div8' [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:2]
+INFO: [Synth 8-256] done synthesizing module 'div8' (1#1) [D:/digital logic/div8/div8.srcs/sources_1/new/div8.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:04:40 ; elapsed = 01:05:25 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:40 ; elapsed = 01:05:25 . Memory (MB): peak = 1604.539 ; gain = 1433.375
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 24 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:04:58 ; elapsed = 01:05:42 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+7 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1607.777 ; gain = 3.238
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/digital logic/DigitalLogic/adder1/adder1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/adder1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx_vivado/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1607.777 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: RippleCarry
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:15 ; elapsed = 01:12:16 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RippleCarry' [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:2]
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:19]
+INFO: [Synth 8-256] done synthesizing module 'adder' (1#1) [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:19]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarry' (2#1) [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:16 ; elapsed = 01:12:17 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:16 ; elapsed = 01:12:17 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 9 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:05:23 ; elapsed = 01:12:22 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1607.777 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:05:37 ; elapsed = 01:14:02 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RippleCarry' [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:2]
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:18]
+INFO: [Synth 8-256] done synthesizing module 'adder' (1#1) [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:18]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarry' (2#1) [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:05:38 ; elapsed = 01:14:03 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:05:38 ; elapsed = 01:14:03 . Memory (MB): peak = 1607.777 ; gain = 1436.613
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 9 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1607.777 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Carry_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Carry_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleCarry
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/DigitalLogic/adder1/adder1.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Carry_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx_vivado/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto f0666ce2eaaa45c4b07414b39b658532 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Carry_tb_behav xil_defaultlib.Carry_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.RippleCarry
+Compiling module xil_defaultlib.Carry_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Carry_tb_behav
+
+****** Webtalk v2015.4.2 (64-bit)
+  **** SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+  **** IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/digital -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2015.4.2 (64-bit)"
+    (file "D:/digital" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 18 09:27:26 2017...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1607.777 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Carry_tb_behav -key {Behavioral:sim_1:Functional:Carry_tb} -tclbatch {Carry_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source Carry_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Carry_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.777 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Carry_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Carry_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/DigitalLogic/adder1/adder1.srcs/sources_1/new/adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RippleCarry
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/DigitalLogic/adder1/adder1.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Carry_tb
+ERROR: [VRFC 10-1412] syntax error near always [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sim_1/new/tb.v:11]
+ERROR: [VRFC 10-1040] module Carry_tb ignored due to previous errors [D:/digital logic/DigitalLogic/adder1/adder1.srcs/sim_1/new/tb.v:2]
+INFO: [USF-XSim-99] Step results log file:'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/digital logic/DigitalLogic/adder1/adder1.sim/sim_1/behav/xvlog.log' file for more information.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 18 09:36:47 2017...

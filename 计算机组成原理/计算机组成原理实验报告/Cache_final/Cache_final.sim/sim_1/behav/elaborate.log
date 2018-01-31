@@ -1,0 +1,19 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 1e06914ac2e74db38f01c2640b5b532a --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Cache_tb_behav xil_defaultlib.Cache_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port datain [E:/tinyrolls/Cache_final/Cache_final.srcs/sources_1/imports/3/Compare.v:16]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/tinyrolls/Cache_final/Cache_final.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "E:/tinyrolls/Cache_final/Cache_final.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AreaMem
+Compiling module xil_defaultlib.Compare
+Compiling module xil_defaultlib.CacheMem
+Compiling module xil_defaultlib.Cache
+Compiling module xil_defaultlib.Cache_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Cache_tb_behav

@@ -1,0 +1,436 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Mon Apr 17 17:02:28 2017
+# Process ID: 8892
+# Current directory: D:/digital logic/lifegame/lifegame.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/digital logic/lifegame/lifegame.runs/synth_1/top.vds
+# Journal file: D:/digital logic/lifegame/lifegame.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 285.965 ; gain = 114.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-638] synthesizing module 'anti_jitter' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/anti_jitter.v:3]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter HOLD bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'anti_jitter' (1#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/anti_jitter.v:3]
+INFO: [Synth 8-638] synthesizing module 'anti_jitter__parameterized0' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/anti_jitter.v:3]
+	Parameter WIDTH bound to: 5 - type: integer 
+	Parameter HOLD bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'anti_jitter__parameterized0' (1#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/anti_jitter.v:3]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/clock_divider.v:3]
+	Parameter COUNTER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (2#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/clock_divider.v:3]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/vga_controller.v:3]
+	Parameter H_SYNC bound to: 96 - type: integer 
+	Parameter H_BPORCH bound to: 144 - type: integer 
+	Parameter H_FPORCH bound to: 784 - type: integer 
+	Parameter H_TOTAL bound to: 800 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_BPORCH bound to: 35 - type: integer 
+	Parameter V_FPORCH bound to: 511 - type: integer 
+	Parameter V_TOTAL bound to: 525 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (3#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/vga_controller.v:3]
+INFO: [Synth 8-638] synthesizing module 'button_pointer' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/button_pointer.v:3]
+	Parameter DELTA_UNIT bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'button_pointer' (4#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/button_pointer.v:3]
+INFO: [Synth 8-638] synthesizing module 'clock_divider_to_125ms' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/clock_divider_to_125ms.v:3]
+	Parameter COUNTER_MAX bound to: 6250000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider_to_125ms' (5#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/clock_divider_to_125ms.v:3]
+INFO: [Synth 8-638] synthesizing module 'multiplexer_4_1' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/multiplexer_4_1.v:3]
+INFO: [Synth 8-256] done synthesizing module 'multiplexer_4_1' (6#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/multiplexer_4_1.v:3]
+INFO: [Synth 8-638] synthesizing module 'life_game' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:3]
+	Parameter BLOCK_SIZE bound to: 25 - type: integer 
+	Parameter BLOCK_COUNT_X bound to: 25 - type: integer 
+	Parameter BLOCK_COUNT_Y bound to: 19 - type: integer 
+	Parameter COLOR_POINTER bound to: 12'b000011001000 
+	Parameter COLOR_EMPTY bound to: 12'b111111111111 
+	Parameter COLOR_BLACK bound to: 12'b000000000000 
+INFO: [Synth 8-638] synthesizing module 'color_generator' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_generator.v:3]
+INFO: [Synth 8-256] done synthesizing module 'color_generator' (7#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_generator.v:3]
+INFO: [Synth 8-638] synthesizing module 'color_circlizer' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_circlizer.v:3]
+	Parameter BLOCK_SIZE bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'color_circlizer' (8#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_circlizer.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'x_position' does not match port width (5) of module 'color_circlizer' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:123]
+WARNING: [Synth 8-689] width (32) of port connection 'y_position' does not match port width (5) of module 'color_circlizer' [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:123]
+INFO: [Synth 8-256] done synthesizing module 'life_game' (9#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:3]
+INFO: [Synth 8-256] done synthesizing module 'top' (10#1) [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-3331] design top has unconnected port mouse_clock
+WARNING: [Synth 8-3331] design top has unconnected port mouse_data
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 474.105 ; gain = 302.254
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 474.105 ; gain = 302.254
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/digital logic/lifegame/lifegame.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [D:/digital logic/lifegame/lifegame.srcs/constrs_1/new/xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/digital logic/lifegame/lifegame.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 726.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "v_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:60]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v:55]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:16 ; elapsed = 00:01:23 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   3 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 6     
+	   6 Input      4 Bit       Adders := 336   
+	   8 Input      4 Bit       Adders := 434   
+	   4 Input      4 Bit       Adders := 178   
+	   3 Input      3 Bit       Adders := 348   
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 5     
++---XORs : 
+	   2 Input      1 Bit         XORs := 950   
++---Registers : 
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 957   
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 952   
+	   3 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 7     
+Module anti_jitter 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+Module anti_jitter__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 2     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider_to_125ms 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module color_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+Module color_circlizer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+Module life_game 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   6 Input      4 Bit       Adders := 336   
+	   8 Input      4 Bit       Adders := 434   
+	   4 Input      4 Bit       Adders := 178   
+	   3 Input      4 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 348   
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 950   
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 950   
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 5     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 951   
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vga_controller/v_enable" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design top has unconnected port mouse_clock
+WARNING: [Synth 8-3331] design top has unconnected port mouse_data
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:01:28 ; elapsed = 00:01:35 . Memory (MB): peak = 726.949 ; gain = 555.098
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:01:28 ; elapsed = 00:01:35 . Memory (MB): peak = 726.949 ; gain = 555.098
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\switch_anti_jitter/out_reg[3] ) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (\switch_anti_jitter/out_reg[2] ) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (\switch_anti_jitter/out_reg[1] ) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:55 ; elapsed = 00:02:15 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:55 ; elapsed = 00:02:15 . Memory (MB): peak = 1102.813 ; gain = 930.961
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:02:28 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:08 ; elapsed = 00:02:29 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:14 ; elapsed = 00:02:35 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:14 ; elapsed = 00:02:35 . Memory (MB): peak = 1102.813 ; gain = 930.961
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:14 ; elapsed = 00:02:35 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:16 ; elapsed = 00:02:37 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:16 ; elapsed = 00:02:37 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:16 ; elapsed = 00:02:38 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:16 ; elapsed = 00:02:38 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:18 ; elapsed = 00:02:39 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:18 ; elapsed = 00:02:39 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    63|
+|3     |LUT1   |   106|
+|4     |LUT2   |   113|
+|5     |LUT3   |  2441|
+|6     |LUT4   |   118|
+|7     |LUT5   |  2484|
+|8     |LUT6   |  1965|
+|9     |MUXF7  |    31|
+|10    |MUXF8  |     7|
+|11    |FDCE   |    20|
+|12    |FDRE   |  1107|
+|13    |IBUF   |    14|
+|14    |OBUF   |    22|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+----------------------------+------+
+|      |Instance                 |Module                      |Cells |
++------+-------------------------+----------------------------+------+
+|1     |top                      |                            |  8493|
+|2     |  button_anti_jitter     |anti_jitter__parameterized0 |   126|
+|3     |  clock_divider_to_125ms |clock_divider_to_125ms      |    69|
+|4     |  clock_divider_to_1s    |clock_divider               |     2|
+|5     |  clock_divider_to_250ms |clock_divider_0             |     2|
+|6     |  clock_divider_to_25mhz |clock_divider_1             |     2|
+|7     |  clock_divider_to_500ms |clock_divider_2             |     2|
+|8     |  clock_divider_to_50mhz |clock_divider_3             |     2|
+|9     |  life_game              |life_game                   |  7775|
+|10    |  switch_anti_jitter     |anti_jitter                 |   107|
+|11    |  vga_controller         |vga_controller              |   323|
++------+-------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:18 ; elapsed = 00:02:39 . Memory (MB): peak = 1102.813 ; gain = 930.961
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:28 ; elapsed = 00:02:27 . Memory (MB): peak = 1102.813 ; gain = 634.238
+Synthesis Optimization Complete : Time (s): cpu = 00:02:18 ; elapsed = 00:02:39 . Memory (MB): peak = 1102.813 ; gain = 930.961
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top' is not ideal for floorplanning, since the cellview 'life_game' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:19 ; elapsed = 00:02:40 . Memory (MB): peak = 1102.813 ; gain = 897.816
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.161 . Memory (MB): peak = 1102.813 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 17 17:05:14 2017...

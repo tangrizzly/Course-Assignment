@@ -1,0 +1,89 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (win64) Build 1494164 Fri Feb 26 04:18:56 MST 2016
+| Date         : Sat Apr 01 14:11:01 2017
+| Host         : R304PC11 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    36 |
+| Minimum Number of register sites lost to control set restrictions |   234 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              35 |           11 |
+| No           | No                    | Yes                    |              55 |           35 |
+| No           | Yes                   | No                     |              10 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              10 |            3 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+--------------------+-----------------------------+------------------+----------------+
+|         Clock Signal         |    Enable Signal   |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++------------------------------+--------------------+-----------------------------+------------------+----------------+
+|  count_reg[18]               |                    | U11/y_reg[1]_LDC_i_1__6_n_0 |                1 |              1 |
+|  U11/y_reg[1]_LDC_i_1__6_n_0 |                    | U11/y_reg[1]_LDC_i_2__6_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U9/y_reg[1]_LDC_i_1__4_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U9/y_reg[1]_LDC_i_2__4_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U8/y_reg[1]_LDC_i_2__3_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U8/y_reg[1]_LDC_i_1__3_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U7/y_reg[1]_LDC_i_2__2_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U7/y_reg[1]_LDC_i_1__2_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U6/y_reg[1]_LDC_i_2__1_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U6/y_reg[1]_LDC_i_1__1_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U5/y_reg[1]_LDC_i_2__0_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U5/y_reg[1]_LDC_i_1__0_n_0  |                1 |              1 |
+|  count_reg[18]               |                    | U4/y_reg[1]_LDC_i_2_n_0     |                1 |              1 |
+|  count_reg[18]               |                    | U4/y_reg[1]_LDC_i_1_n_0     |                1 |              1 |
+|  count_reg[18]               |                    | U13/y_reg[1]_LDC_i_2__8_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U13/y_reg[1]_LDC_i_1__8_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U12/y_reg[1]_LDC_i_2__7_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U12/y_reg[1]_LDC_i_1__7_n_0 |                1 |              1 |
+|  U10/y_reg[1]_LDC_i_1__5_n_0 |                    | U10/y_reg[1]_LDC_i_2__5_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U11/y_reg[1]_LDC_i_2__6_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U10/y_reg[1]_LDC_i_2__5_n_0 |                1 |              1 |
+|  count_reg[18]               |                    | U10/y_reg[1]_LDC_i_1__5_n_0 |                1 |              1 |
+|  U9/y_reg[1]_LDC_i_1__4_n_0  |                    | U9/y_reg[1]_LDC_i_2__4_n_0  |                1 |              1 |
+|  U8/y_reg[1]_LDC_i_1__3_n_0  |                    | U8/y_reg[1]_LDC_i_2__3_n_0  |                1 |              1 |
+|  U7/y_reg[1]_LDC_i_1__2_n_0  |                    | U7/y_reg[1]_LDC_i_2__2_n_0  |                1 |              1 |
+|  U6/y_reg[1]_LDC_i_1__1_n_0  |                    | U6/y_reg[1]_LDC_i_2__1_n_0  |                1 |              1 |
+|  U5/y_reg[1]_LDC_i_1__0_n_0  |                    | U5/y_reg[1]_LDC_i_2__0_n_0  |                1 |              1 |
+|  U4/y_reg[1]_LDC_i_1_n_0     |                    | U4/y_reg[1]_LDC_i_2_n_0     |                1 |              1 |
+|  U13/y_reg[1]_LDC_i_1__8_n_0 |                    | U13/y_reg[1]_LDC_i_2__8_n_0 |                1 |              1 |
+|  U12/y_reg[1]_LDC_i_1__7_n_0 |                    | U12/y_reg[1]_LDC_i_2__7_n_0 |                1 |              1 |
+|  U2/count_reg[0]             | U1/temp[2]_i_1_n_0 | U1/updown_reg[0]_0          |                1 |              5 |
+|  U2/count_reg[0]             | U1/count_2         | U1/updown_reg[0]_0          |                2 |              5 |
+|  count_reg[18]               |                    |                             |                4 |              9 |
+|  U2/count_reg[0]             |                    | U1/updown_reg[0]_0          |                6 |             15 |
+|  count_reg[18]               |                    | U1/updown_reg[0]_0          |                9 |             20 |
+|  clk_IBUF_BUFG               |                    |                             |                7 |             26 |
++------------------------------+--------------------+-----------------------------+------------------+----------------+
+
+

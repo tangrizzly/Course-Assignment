@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyl/Vivado/DigitalLogic/4.3mearly/4.3mearly.srcs/sources_1/new/4.3mealy" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seqdetb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyl/Vivado/DigitalLogic/4.3mearly/4.3mearly.srcs/sim_1/new/mearlytb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seqdetb_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyl/Vivado/DigitalLogic/4.3mearly/4.3mearly.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

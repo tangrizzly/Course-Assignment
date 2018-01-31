@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module color_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/lifegame/lifegame.srcs/sources_1/new/color_circlizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module color_circlizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/lifegame/lifegame.srcs/sources_1/new/life_game.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module life_game
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/lifegame/lifegame.srcs/sim_1/new/life_game_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module life_game_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/digital logic/lifegame/lifegame.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

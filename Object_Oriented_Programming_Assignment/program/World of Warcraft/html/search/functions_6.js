@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['getarmed',['getarmed',['../class_warrior.html#aac16c27633769a7a9f6f7382da2eaf80',1,'Warrior']]],
+  ['getarrow',['getArrow',['../class_warrior.html#ad290d165e676b3d2a06b96e2db176cb2',1,'Warrior']]],
+  ['getattack',['getAttack',['../class_warrior.html#aff5e239987a94ac5b781092ee86c5da9',1,'Warrior']]],
+  ['getattackpoint',['getAttackPoint',['../class_arm.html#aa9553f3072705dba90f2a32cc328f9b7',1,'Arm']]],
+  ['getbomb',['getBomb',['../class_warrior.html#a6858dc83ab3c220dcbd73b15ceec8e3f',1,'Warrior']]],
+  ['getcities',['getcities',['../class_headquarter.html#ab1418afefa7f509cbdabdcaa33be453b',1,'Headquarter']]],
+  ['getcitylife',['getCityLife',['../class_headquarter.html#a737bd85dbb7af130ba89b0c09c2e1441',1,'Headquarter']]],
+  ['getflag',['getFlag',['../class_city.html#a60450feba71de312c6b880a4f3dd7659',1,'City']]],
+  ['getflagtype',['getFlagType',['../class_red_headquarter.html#ae258188598e6501dc20ddd5578f2cba1',1,'RedHeadquarter::getFlagType()'],['../class_blue_headquarter.html#a4c96705e21d7daf18813e7278c4617b7',1,'BlueHeadquarter::getFlagType()'],['../class_headquarter.html#a304d7a05fcad6ffcdabbc8f9f2395669',1,'Headquarter::getFlagType()']]],
+  ['gethealed',['gethealed',['../class_warrior.html#aa7e30182ba7b0e1dbef9d6e6ea995895',1,'Warrior']]],
+  ['gethealth',['getHealth',['../class_warrior.html#a4f44a97f79b47dab7d34bb7407fd59e5',1,'Warrior']]],
+  ['gethours',['getHours',['../class_clock.html#aedec123722666d366fd5d601090269fc',1,'Clock']]],
+  ['gethurt',['gethurt',['../class_warrior.html#af4a2d7ee57c5fa34955d640440ddd26f',1,'Warrior']]],
+  ['getlife',['getlife',['../class_city.html#a6d9ccd5bc85e823d850d37c41f1464df',1,'City']]],
+  ['getminutes',['getMinutes',['../class_clock.html#a5e5c63b3c841f7c4fddc1bce592132df',1,'Clock']]],
+  ['getnumber',['getNumber',['../class_warrior.html#afbf799c0c9130b206da0c1321b2899d9',1,'Warrior']]],
+  ['getsword',['getSword',['../class_warrior.html#a2d6aead2d6b052532d23e2ccd1dc196c',1,'Warrior']]],
+  ['gettotalattack',['getTotalAttack',['../class_warrior.html#aaa7bcff3910d158d9966711b1f19ff59',1,'Warrior']]],
+  ['gettotaltime',['getTotalTime',['../class_clock.html#ac7f4ac9272043325d4c6132f049c6b5e',1,'Clock']]],
+  ['gettype',['getType',['../class_arm.html#a034b7ca12e80dbbe3721d119c8fe4d3b',1,'Arm::getType()'],['../class_sword.html#a9052675f54ec887a013d6f7de16a0a91',1,'Sword::getType()'],['../class_arrow.html#a84f191efb3b912300e6b4bb55214636c',1,'Arrow::getType()'],['../class_bomb.html#a633f5b4ed3f3cba238389f2b013b1cde',1,'Bomb::getType()'],['../class_dragon.html#a98e8289c41ffda80e6a05bdf7266c9e3',1,'Dragon::getType()'],['../class_ninjia.html#a785717033509210bf53599dd349785a5',1,'Ninjia::getType()'],['../class_iceman.html#a66f307b3995b3d345bfc574fdf20ce2f',1,'Iceman::getType()'],['../class_lion.html#a93464cd3d785176894d29da67f759901',1,'Lion::getType()'],['../class_wolf.html#a1b6851ee40a9f0fae9eec7aa99c20b35',1,'Wolf::getType()'],['../class_red_headquarter.html#a7475574133019093fa24995744f53f67',1,'RedHeadquarter::getType()'],['../class_blue_headquarter.html#a55a67642886c18502dbcecb1eb652acc',1,'BlueHeadquarter::getType()'],['../class_headquarter.html#ad2d62c4e788d21fa21fa75f1551249a2',1,'Headquarter::getType()'],['../class_warrior.html#ab35c2c9a587308870d829c69e63d2334',1,'Warrior::getType()']]],
+  ['gettypenumber',['getTypeNumber',['../class_arm.html#a2899dc7303745246235f3331442cd4ba',1,'Arm']]]
+];
